@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="landing-page-css.css">
+  <link rel="favicon" href="Images/Logo.jpg">
+  <title>Oasis Infobyte Landing Page</title>
+</head>
+<body>
+  
+    <nav>
+      <div class="logo"> <img class="logo-img" src="Images/Logo.jpg" alt="Logo"> OASIS INFOBYTE</div>
+      <!-- toggle menu button -->
+      <span class="menubtn" onclick="openNav()">&#9776;</span>
+   
+      <div class="navLinks">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#">Intership</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">FAQ</a></li>
+          <button class="login-btn" type="button">Login</button>
+        </ul>
+      </div>
+    </nav>
+      <!-- responsive side navbar -->
+      <div class="sideNav" id="sidenav">
+        <a href="#" class="closeBtn" onclick="closeNav()"> &#10006;</a>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#">Services</a>
+        <a href="#contact">Contact</a>
+        <a href="#">Intership</a>
+        <a href="#">Team</a>
+        <a href="#">FAQ</a>
+        <a href="#"><button type="button">Login</button> </a>
+      </div>
+      <!-- Header content with banner image -->
+      <div class="row">
+        <div class="column1">
+          <h1>Build Your IT Here With Oasis Infobyte</h1>
+          <p>You Have A Vision. We Have A Team To Get You There</p>
+          <button class="login-btn">Get Started</button>
+        </div>
+        <div class="column2">
+          <img src="Images/Image.png" alt="banner" width="500px">
+        </div>
+      </div>
+
+   <div class="information">
+    <div >
+        <table id="table">
+          <caption class="h3" style="margin-top: 20px;" id="about">About</caption>
+            <tr>
+                <td><h3 class="h3">We Build IT That Build Your Business</h3>
+                    <p>We Develop Personalized Software At Our Company, We Turn The Digital Dreams Of Our Clients Into A Reality. 
+                      We Work Closely With Our Users Throughout Development To Ensure That We Are Still Aligned With The End-Goal.
+                       We Are Committed To Producing Exceptional Software For Each Of Our Clients. We At OASIS InfoByte Believe In Making Our Youth Especially 
+                       The Students Self-Aware And Exploring The Untouched World Of Technology And Tremendous Growth-Making Fields. We Believes In Bridging The Gap 
+                       Between Students And Their Knowledge In The Industrial Field & Bringing Them A Step Closer To Their Dream. We Are MSME Registered Start-Up, 
+                       Always Open To Connect New People With Us Over This Journey Of Endless Learning And Great Joy!</p>
+                    <button class="btn" type="button">Learn More</button>
+                </td>
+                <td class="img1"> <img class="img" src="Images/ab.svg" alt="ab"></td>
+            </tr>
+
+            <tr>
+                <td class="img1"> <img class="img" src="Images/wbd.svg" alt="wbd"></td>
+                <td><h3 class="h3">Website Development</h3>
+                    <p>Our Website Developers Provide Expert Web Application Development And Web Design Services To Our Clients. OASIS INFOBYTE Offers
+                       A Variety Of Website Design And Development Services, We Specialize In Developing Interactive, Scalable, Brand-Oriented, And Business-Ready 
+                       Custom Web Solutions. Our Aim Is To Build Profitable Digital Products Engineered To Spark Creativity And Boost ROI.</p>
+                    <button class="btn" type="button">Learn More</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="color"><h3 class="h3">Cloud Computing</h3>
+                    <p>Whatever Type Of Cloud Computing Services You Use, One Thing Is Certain: Large Quantities Of Data Will Move Back And Forth Between Your End Users 
+                      And The Cloud Provider's Data Centers, Over The Internet. That's Why Whatever Type Of Cloud Services You Use, OASIS INFOBYTE Can Help Your 
+                      Organization Have A Better Cloud Experience And Reap Greater Benefits From Your Cloud Services Investment.</p>
+                    <button class="btn" type="button">Learn More</button>
+                </td>
+                <td class="img1"> <img class="img" src="Images/Cloud hosting-amico (1).svg" alt="cloud hosting-amico"></td>
+            </tr>
+
+            <tr>
+                <td class="img1"> <img class="img" src="Images/Font-amico (1).svg" alt="Font-amico"></td>
+                <td><h3 class="h3">Graphic Design</h3>
+                    <p>Our Creative Designers Offer Outstanding And Attention-Grabbing Visuals For Brochures, Banners, Flyers, Logos, Business Cards, E-Books, 
+                      And Many More. Our Graphic Designs Can Develop A Great Impression On Your Prospect’s Mind. With A Complete Mixture Of Professionalism And 
+                      Stunning Creativity Skills, Our Expert Designers Can Establish A Bright Profile For Your Business In The Online World.</p>
+                    <button class="btn" type="button">Learn More</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td><h3 class="h3">Animation Design</h3>
+                    <p>Animations Make Your Brand More Engaging And Interactive. This Makes Them Great Assets To Share On Social Media, Distribute Through Email, 
+                      Feature Internally And Host On Your Website—They’re That Versatile. Our Passionate Team Of Motion Graphics Designers Empower You To Tell Great 
+                      Stories For Your Business. We Believe It's Only When You Tell Great Stories You Become One.</p>
+                    <button class="btn" type="button">Learn More</button>
+                </td>
+                <td class="img1"> <img class="img" src="Images/Cloud hosting-amico (1).svg" alt="Font-amico"></td>
+            </tr>
+
+            
+            <tr>
+                <td class="img1"> <img class="img" src="Images/Server-rafiki (1).svg" alt="Font-amico"></td>
+                <td><h3 class="h3">Database Management</h3>
+                    <p>Your Databases Are At The Core Of Your Business. Whether You’re Operating On-Premises Or In The Cloud, Using A Traditional Or Open-Source 
+                      Platform, Our Global Experts Are Available Around The Clock To Help You Turn Your Databases Into A Business Differentiator. We Offer A Full 
+                      Range Of Solutions To Support Your Needs—From Assuming Total Ownership Of Your Database Environment To Augmenting Your Internal Team To Helping 
+                      You Refactor For The Cloud.</p>
+                    <button class="btn" type="button">Learn More</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td><h3 class="h3">Machine Learning Solutions</h3>
+                    <p>Artificial Intelligence & Machine Learning Offerings Help Organizations Build Highly-Customized Solutions Running On Advanced Machine Learning 
+                      Algorithms. Our Machine Learning Services Offer Advanced Algorithms To Help Organizations In Solving Key Business Challenges, Enabling Data-Driven 
+                      Decision Making And Creating Innovative Business Models.</p>
+                    <button class="btn" type="button">Learn More</button>
+                </td>
+                <td class="img1"> <img class="img" src="Images/Cyborg-bro (1).svg" alt="Font-amico"></td>
+            </tr>
+            
+        </table>  
+    </div>
+   </div>
+
+   <footer id="contact">
+    <h2>Contact</h2>
+    <p>📧 contact@oasisinfobyte.in</p>
+    <p>🌐 www.oasisinfobyte.com</p>
+   </footer>
+  
+
+
+   <!-- javascript to make side menu appear -->
+ <script>
+   function openNav() {
+     document.getElementById("sidenav").style.width = "50%";
+   }
+   function closeNav() {
+     document.getElementById("sidenav").style.width = "0%";
+   }
+ </script>
+</body>
+</html>
