@@ -1,14 +1,16 @@
-    header {
+header {
     background-image: linear-gradient(to right, rgba(10, 26, 241, 0.419), rgba(112, 3, 3, 0.458));
     padding: 20px;
     text-align: center;
     height: 250PX;
     margin: 0 204px;
    }
-   body{
+
+body{
     background-color: #FFEAFA;
    }
-   .intro-image {
+
+.intro-image {
     display: inline-block;
     vertical-align: middle;
     width: 150px;
@@ -17,46 +19,51 @@
     overflow: hidden;
    }
 
-   .intro-image img {
+.intro-image img {
     height: 100%;
     object-fit: cover;
    }
-   h1, h2 {
+
+h1, h2 {
     margin: 10px 0;
     font-family: serif;
    }
  
-   section {
+section {
     max-width: 800px;
     margin: auto;
     padding: 20px;
    }
-   .about-me {
+
+.about-me {
     background-color: #E3DFFD;
    }
-   .my-hobbies {
+
+.my-hobbies {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
     background-color: #f5f5f5;
    }
    
-   .my-hobbies a {
+.my-hobbies a {
     margin: 10px;
     flex: 1;
     max-width: 300px;
     height: 200px;
     overflow: hidden;
    }
-   .my-hobbies img {
+
+.my-hobbies img {
     height: 100%;
     object-fit: cover;
    }
 
-   .contact-me{
+.contact-me{
     background-color: #F6E1C3;
    }
-   .contact-me form {
+   
+.contact-me form {
     display: flex;
     background-color: #80bff2;
     flex-wrap: wrap;
@@ -64,7 +71,8 @@
     margin: 0 auto;
     padding: 20px;
    }
-   .contact-me input, .contact-me textarea {
+
+.contact-me input, .contact-me textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -72,7 +80,8 @@
     border-radius: 5px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.2);
    }
-   .contact-me button {
+
+.contact-me button {
     background-color: #1E90FF;
     color: #fff;
     padding: 5px 20px;
@@ -80,6 +89,7 @@
     border-radius: 5px;
     cursor: pointer;
    }
-   .contact-me button:hover {
+
+.contact-me button:hover {
     background-color: #187bcd;
    }
